@@ -1,5 +1,5 @@
 # 幅優先探索（https://atcoder.jp/contests/abc007/tasks/abc007_3）
-
+# まずはdequeを使わずに
 r, c = map(int, input().split())
 sy, sx = map(int, input().split())
 gy, gx = map(int, input().split())
@@ -92,3 +92,5 @@ if result != -1:
 # # BFSを実行して結果を表示
 # result = bfs(sy, sx, gy, gx)
 # print(result)
+
+####  練習問題：https://atcoder.jp/contests/agc033/tasks/agc033_a
